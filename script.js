@@ -53,4 +53,5 @@ function renderQuestions() {
     questionsElement.appendChild(questionElement);
   }
 }
+const questionsElement = document.getElementById("questions");
 renderQuestions();
